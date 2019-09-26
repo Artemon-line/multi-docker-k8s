@@ -20,6 +20,6 @@ after_success:
 
   # Push images to docker hub
   - docker push tyra777/multi-client
-  - docker tyra777/multi-nginx
-  - docker tyra777/multi-server
-  - docker tyra777/multi-worker
+  - docker push tyra777/multi-nginx
+  - docker push tyra777/multi-server
+  - docker push tyra777/multi-worker
